@@ -1,6 +1,7 @@
 QENUM - Quick Enum
+------------------
 
-A quick and dirty DC enumerator which will pull information back in an easily reuseable format
+QENUM is an rpcclient wrapper which performs some useful enumeration functions when pentesting.
 
 Username Gathering
 ------------------
