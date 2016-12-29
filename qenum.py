@@ -257,9 +257,9 @@ def get_shares(ip,username,password):
 		
 			for i in parsed_shares:
 				if username=="":
-					proc = subprocess.Popen('smbclient '+' -U \"\" -N '+'//'+ip+'/'+i+' -c \"dir\"', stdout=subprocess.PIPE,shell=True)
+					proc = subprocess.Popen('smbclient '+' -U \"\" -N '+'//'+ip+'/'+i+' -c \"dir\" 2>/dev/null', stdout=subprocess.PIPE,shell=True)
 				else:
-					proc = subprocess.Popen('smbclient '+' -U '+username+'%'+password +' //'+ip+'/'+i+' -c \"dir\"', stdout=subprocess.PIPE,shell=True)
+					proc = subprocess.Popen('smbclient '+' -U '+username+'%'+password +' //'+ip+'/'+i+' -c \"dir\" 2>/dev/null', stdout=subprocess.PIPE,shell=True)
 			
 					stdout_value = proc.communicate()[0]
 					if "NT_STATUS_ACCESS_DENIED" in stdout_value:
