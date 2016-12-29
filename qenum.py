@@ -12,7 +12,7 @@ import subprocess
 import os
 import sys
 
-p = argparse.ArgumentParser("./rid.py -H ip=10.0.0.10 -u administrator -p Password01", version="Quick Enum - Version 1.1", formatter_class=lambda prog: argparse.HelpFormatter(prog,max_help_position=20,width=150))
+p = argparse.ArgumentParser("./qenum.py -H ip=10.0.0.10 -u administrator -p Password01", version="Quick Enum - Version 1.1", formatter_class=lambda prog: argparse.HelpFormatter(prog,max_help_position=20,width=150))
 
 p.add_argument("-H", "--host", dest="host", help="IP Address of Target")
 p.add_argument("-u", "--username", dest="username", default="",help="Enter a username")
