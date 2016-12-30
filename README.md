@@ -6,6 +6,16 @@ tasks when probing a Domain Controller.
 
 •	Written by Richard Davy
 
+     .-')      ('-.       .-') _             _   .-')    
+   .(  OO)   _(  OO)     ( OO ) )           ( '.( OO )_  
+  (_)---\_) (,------.,--./ ,--,' ,--. ,--.   ,--.   ,--.)
+  '  .-.  '  |  .---'|   \ |  |\ |  | |  |   |   `.'   | 
+ ,|  | |  |  |  |    |    \|  | )|  | | .-') |         | 
+(_|  | |  | (|  '--. |  .     |/ |  |_|( OO )|  |'.'|  | 
+  |  | |  |  |  .--' |  |\    |  |  | | `-' /|  |   |  | 
+  '  '-'  '-.|  `---.|  | \   | ('  '-'(_.-' |  |   |  | 
+   `-----'--'`------'`--'  `--'   `-----'    `--'   `--' 
+
 QENUM functionality includes:
 
 •	User enumeration using RID cycling or Enumdomusers - user names saved to file
