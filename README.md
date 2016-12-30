@@ -16,7 +16,7 @@ QENUM functionality includes:
 
 •	Enumerates shares, attemps to mount shares and dir
 
-•	Enumerates user accounts which have a description field which is not empty
+•	Enumerates user accounts which have a description field which is not empty,
 	usernames and descriptions saved to file for analysis
 
 Username Gathering
