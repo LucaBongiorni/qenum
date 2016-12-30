@@ -1,7 +1,29 @@
 QENUM - Quick Enum
 ------------------
 
-QENUM is an rpcclient wrapper which performs some useful enumeration functions when pentesting.
+    .-')      ('-.       .-') _             _   .-')    
+   .(  OO)   _(  OO)     ( OO ) )           ( '.( OO )_  
+  (_)---\_) (,------.,--./ ,--,' ,--. ,--.   ,--.   ,--.)
+  '  .-.  '  |  .---'|   \ |  |\ |  | |  |   |   `.'   | 
+ ,|  | |  |  |  |    |    \|  | )|  | | .-') |         | 
+(_|  | |  | (|  '--. |  .     |/ |  |_|( OO )|  |'.'|  | 
+  |  | |  |  |  .--' |  |\    |  |  | | `-' /|  |   |  | 
+  '  '-'  '-.|  `---.|  | \   | ('  '-'(_.-' |  |   |  | 
+   `-----'--'`------'`--'  `--'   `-----'    `--'   `--' 
+
+QENUM is an attack tool which carries out commonly needed basic enumeration
+tasks when probing a Domain Controller.
+
+•	Written by Richard Davy
+
+QENUM functionality includes:
+
+•	User enumeration using RID cycling or Enumdomusers - user names saved to file
+•	Basic password brute-forcing
+•	Enumerates Domain Admins - usernames saved to file 
+•	Enumerates shares, attemps to mount shares and dir
+•	Enumerates user accounts which have a description field which is not empty
+	usernames and descriptions saved to file for analysis
 
 Username Gathering
 ------------------
@@ -57,7 +79,7 @@ Useful Enumeration Functions
 ----------------------------
 
 Functions - All Functions -a, 
-			Enumerate shares -s, 
+			Enumerate Shares -s, 
 			Enumerate Domain Admins -da, 
 			Enumerate Descriptions -d
 
