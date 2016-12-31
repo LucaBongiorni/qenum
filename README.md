@@ -4,8 +4,6 @@ QENUM - Quick Enum
 QENUM is an attack tool which carries out commonly needed basic enumeration
 tasks when probing a Domain Controller.
 
-•	Written by Richard Davy
-
 ```
      .-')      ('-.       .-') _             _   .-')    
    .(  OO)   _(  OO)     ( OO ) )           ( '.( OO )_  
