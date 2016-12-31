@@ -28,7 +28,7 @@ QENUM functionality includes:
 
 •	Enumerates Domain Admins - usernames saved to file
 
-•	Enumerates shares, attemps to mount shares and dir
+•	Enumerates shares, attempts to mount shares and dir
 
 •	Enumerates user accounts which have a description field which is not empty,
 	usernames and descriptions saved to file for analysis
